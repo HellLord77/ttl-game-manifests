@@ -1,0 +1,33 @@
+from collections.abc import Awaitable
+
+from httpx import AsyncClient
+from httpx import Client
+from types_ import MetadataVersion
+
+from .enums import GameBiz
+from .enums import RepositoryUrl
+from .models import GameManifest
+from .models import RepositoryManifest
+from .models.base import Base
+from .models.game_version import GameVersion
+
+class Repository:
+    url: RepositoryUrl
+    client: Client
+
+    def __init__(self, url: RepositoryUrl = ..., *, client: Client | None = None) -> None: ...
+    def _get_model[T: Base](self, path: str, *, model: type[T]) -> T: ...
+    def get_repository_manifest(self) -> RepositoryManifest: ...
+    def get_game_manifest(self, game_biz: GameBiz) -> GameManifest: ...
+    @classmethod
+    def get_latest_game_version(cls, game_manifest: GameManifest) -> GameVersion: ...
+    @staticmethod
+    def find_game_version(game_manifest: GameManifest, metadata_version: MetadataVersion) -> GameVersion | None: ...
+
+class AsyncRepository(Repository):
+    client: AsyncClient
+
+    def __init__(self, url: RepositoryUrl = ..., *, client: AsyncClient | None = None) -> None: ...
+    async def _get_model[T: Base](self, path: str, *, model: type[T]) -> T: ...
+    def get_repository_manifest(self) -> Awaitable[RepositoryManifest]: ...
+    def get_game_manifest(self, game_biz: GameBiz) -> Awaitable[GameManifest]: ...

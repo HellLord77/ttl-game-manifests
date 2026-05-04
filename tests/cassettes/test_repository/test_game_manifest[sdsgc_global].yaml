@@ -1,0 +1,97 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - raw.githubusercontent.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://raw.githubusercontent.com/TwintailTeam/game-manifests/refs/heads/main/sdsgc_global.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+2ZWW/bOBCA3/MrBD3tAq11X3mTr2KBtnnoArvAIiAokZYZS5RKUo6TIv+9pORD
+        R5J1gO0CAZyHwJkZznCGMx9l5ceVpulbzDgpqX6tWR/U34jwKocPgMICS6H+5xpr3/AWU22OIcof
+        tG+E8mvtE4MUaTNWcq799ikvE5j/rjcOEvKo1nHEsxRkjaZV5FBgLsApoG5PLNOaWBOzNchkyIOa
+        S/0/UqhpP5rfUl1gAREUUGoOstP+MXrLjo+B+3vvuxzvcK9H5T3NS4hAUaIm4vzmr6+fb+I5+HIz
+        X4DlH58XXfMmrTXka2XaVRCK8A6sSI6HGoY5yIksVs3yoQ6R1aqrPNViH2uwQEoxBTUfix/XIKVj
+        8R0Ed9VYvCnBhjXio/Rp/+npYKhDzrHg/RNq8idpW9C1EBW/NowUUXvCBYZFxghCySQtC0MZAbGu
+        i8RwHTeByEkxck3Lgzb2PBu6HoROiFIbhpOKZqMiJzDdZKysKeqG4hkpYIYnFIsCsiTHbSwl48ZR
+        aMxuvny5+WrYpu2Zlukb22y1tQLHt9zI8gPbsSf3OKlGMXOyHQbWR2XZH0unKKs6z48t3v50D1JZ
+        yL44nP8hFQopzJJJJqs3SKdK05xgKvYmxrFxDWQ+orJ8rChjLrCCwI9c03N8248mj6TqnbGMKn1V
+        svu4nCdOHptesmVBbNvygqEtwm+xbvI5jMHU8X0njhdBGC8dfxHPw8U8imMzipexE1vWs4srKIYz
+        1CgZzuS4gnQ/jXpH+3T8fDsYIVX823H/1oiUz5/Uqw6uOm5+HbDMc4FlXoB1AdZ7BJZsXCNLtvUd
+        rOoEmagBVuC5nh849luA5USm758NrGete8DyvHjhzBazhe/Pp7EztWwzspzZcjF1Xc8M7QuwxsAy
+        zwWWeQGWdgHWOwRW07hGkW7S7zalUQBXClie54Shb/qufTawzMANvTA6E1gvWPeAFVm2fKZyvalr
+        hZEbOwtv6s+C5cwPw3ixiL0LsIbAiqLzvhG2dhdcXXD1vnDV9q3BA1GGSR0KJO4bWpmmEzim7Vrn
+        0sqKIt81gxFCnqfVS9Z9Ws0dbxY4y3A+ndnhbOYGtjufu5EfTOPID5fvk1ZX+zC62ulpCFqvoNpk
+        QM01IqyThY53uEHAgV2BepE2kdKDgUSXgHkOhUpysJinDGPK16V4XSMDKweyU4VKr+1cteJqn/1w
+        cH/50P7fA/vqsLYlEDjH8oZhD2BdcnF6I6lX6SRlsnM5ydZCOlXvNdXm9OOB451gp1tJX1Uc1PKK
+        SDegrETv9abUyu8SbY/eHrbGYLUmKQewIp0Fx2sP4RWsc6F2+3FVshR/RA7qvDTRx0H6NNG3MK/x
+        i+sbk0P/zQnDqfhbk/oT5z+c79b+F7f2+Pq47V72Or8nIl3jXgVOBcWqy1cw5/iY/R1EmAg8ku92
+        BRkJu7WWSsFq3IuukAYFKOUjgGzx/i72kyhnCEjsrchu5B0RDhOFKlaKkkqLxoEKcjTpqABBPZ71
+        dFyUrH+V61zUCbgnVPrjYhQ7afptRZh8MmD4+0jfOgf7BFMVJ+t1jE7LHcwJPBzQ7am/9tUArKa0
+        OYEOIHNC693wOUTiTNYBDTfR6Fon3X8MPNtpegHTkv9njkesLwgF/RW8x3ldVlrSgKQbrgwSfiL+
+        sVUVCgEpqpJ1Knrslxf2ul8Gq4ogIHZieMitkgCU56ccDiFl46lHTxVGpfR09fQTbAS0INcZAAA=
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Cache-Control:
+      - max-age=300
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1310'
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'; sandbox
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 04 May 2026 02:54:48 GMT
+      ETag:
+      - W/"b565b07758fad83662e7605d56031860dc1d0c8dc2394ce89e08784f492dfe7d"
+      Expires:
+      - Mon, 04 May 2026 02:59:48 GMT
+      Source-Age:
+      - '0'
+      Strict-Transport-Security:
+      - max-age=31536000
+      Vary:
+      - Authorization,Accept-Encoding
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Fastly-Request-ID:
+      - 4d59165a04e457aa7a3d40019a3ccd5420f3fcc6
+      X-Frame-Options:
+      - deny
+      X-GitHub-Request-Id:
+      - 1BB2:327C1C:40B6EB:96DC65:69F80A78
+      X-Served-By:
+      - cache-bom-vanm7210085-BOM
+      X-Timer:
+      - S1777863289.731641,VS0,VE256
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1

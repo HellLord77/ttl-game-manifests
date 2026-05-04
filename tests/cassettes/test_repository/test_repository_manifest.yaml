@@ -1,0 +1,78 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Host:
+      - raw.githubusercontent.com
+      User-Agent:
+      - python-httpx/0.28.1
+    method: GET
+    uri: https://raw.githubusercontent.com/TwintailTeam/game-manifests/refs/heads/main/repository.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA23PMW8CMQwF4P1+hZUZscDUuWOlDrAhhHwXJxfIOVGc66mt+t9roKhCyvq9pyf7
+        uwMwjBOZFzDvzoUhYASvABNycCRVzOpasiRDCbmGxNfujiok918Cl4rCfSB+gsw5p1LJ3sYEEsN+
+        CVwxxDeceRiprO/DE96YqYgOH8x+viC/0oc5/sWPMzRUUBovWzr5mHqM67PoPauHl+xbAWNucT9u
+        WrzMC7Y8+9JipKrPePyiZkxsXaBoW5lY8cNToH7sfrpf2ieRO5cBAAA=
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Cache-Control:
+      - max-age=300
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '212'
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'; sandbox
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 04 May 2026 02:54:45 GMT
+      ETag:
+      - W/"0a30c3c40e29a841a0e6384a26cf2a7de5289cf57b6f963daa9c2c857af104d7"
+      Expires:
+      - Mon, 04 May 2026 02:59:45 GMT
+      Source-Age:
+      - '130'
+      Strict-Transport-Security:
+      - max-age=31536000
+      Vary:
+      - Authorization,Accept-Encoding
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Fastly-Request-ID:
+      - cb416833267d7a04e316283335fdf2a7e115f631
+      X-Frame-Options:
+      - deny
+      X-GitHub-Request-Id:
+      - DC84:0A4D:B5F11:21EE38:69F807C9
+      X-Served-By:
+      - cache-bom-vanm7210084-BOM
+      X-Timer:
+      - S1777863285.446082,VS0,VE1
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1
