@@ -10,8 +10,8 @@ from pydantic import HttpUrl
 from .version_transformer import MetadataVersion as MetadataVersion
 from .version_transformer import ProtonVersion as ProtonVersion
 
-EmptyList = Annotated[list, Field(max_length=0)]
 EmptyDict = Annotated[dict, Field(max_length=0)]
+EmptyList = Annotated[list, Field(max_length=0)]
 
 RelativePath = Annotated[PurePosixPath, Predicate(Not(PurePosixPath.is_absolute))]
 RelativeDllPath = Annotated[RelativePath, Predicate(lambda path: path.suffix == ".dll")]

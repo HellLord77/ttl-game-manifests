@@ -8,8 +8,6 @@ from .enums import RepositoryUrl
 from .models import GameManifest
 from .models import RepositoryManifest
 from .models.base import Base
-from .models.game_version import GameVersion
-from .types_ import MetadataVersion
 
 
 class Repository:
@@ -32,20 +30,6 @@ class Repository:
 
     def get_game_manifest(self, game_biz: GameBiz) -> GameManifest:
         return self._get_model(f"{game_biz}.json", model=GameManifest)
-
-    @classmethod
-    def get_latest_game_version(cls, game_manifest: GameManifest) -> GameVersion:
-        game_version = cls.find_game_version(game_manifest, game_manifest.latest_version)
-        if game_version is None:
-            raise NotImplementedError
-        return game_version
-
-    @staticmethod
-    def find_game_version(game_manifest: GameManifest, metadata_version: MetadataVersion) -> GameVersion | None:
-        for game_version in game_manifest.game_versions:
-            if metadata_version == game_version.metadata.version:
-                return game_version
-        return None
 
 
 class AsyncRepository(Repository):
