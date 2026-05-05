@@ -1,4 +1,4 @@
-from ttl_game_manifests.types_ import EmptyDict
+from tail_launcher_sdk.types_ import EmptyDict
 
 from .base import Base
 from .game_compat_overrides import GameCompatOverrides

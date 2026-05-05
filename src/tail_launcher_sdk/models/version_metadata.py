@@ -2,9 +2,9 @@ from typing import Literal
 
 from pydantic import HttpUrl
 
-from ttl_game_manifests.enums import DownloadMode
-from ttl_game_manifests.types_ import JsonUrl
-from ttl_game_manifests.types_ import MetadataVersion
+from tail_launcher_sdk.enums import DownloadMode
+from tail_launcher_sdk.types_ import JsonUrl
+from tail_launcher_sdk.types_ import MetadataVersion
 
 from .base import Base
 from .diff_urls import DiffUrls

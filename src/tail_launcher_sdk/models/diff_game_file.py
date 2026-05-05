@@ -3,10 +3,10 @@ from typing import Literal
 from pydantic import ByteSize
 from pydantic import HttpUrl
 
-from ttl_game_manifests.enums import DiffType
-from ttl_game_manifests.types_ import EmptyList
-from ttl_game_manifests.types_ import HexMd5
-from ttl_game_manifests.types_ import MetadataVersion
+from tail_launcher_sdk.enums import DiffType
+from tail_launcher_sdk.types_ import EmptyList
+from tail_launcher_sdk.types_ import HexMd5
+from tail_launcher_sdk.types_ import MetadataVersion
 
 from .base import Base
 

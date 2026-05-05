@@ -7,7 +7,7 @@ from pydantic import ValidationError
 
 
 def test_relative_path():
-    from ttl_game_manifests.types_ import RelativePath
+    from tail_launcher_sdk.types_ import RelativePath
 
     relative_path_adapter = TypeAdapter(RelativePath)
 
@@ -21,7 +21,7 @@ def test_relative_path():
 
 
 def test_relative_dll_path():
-    from ttl_game_manifests.types_ import RelativeDllPath
+    from tail_launcher_sdk.types_ import RelativeDllPath
 
     relative_dll_path_adapter = TypeAdapter(RelativeDllPath)
 
@@ -35,7 +35,7 @@ def test_relative_dll_path():
 
 
 def test_relative_exe_path():
-    from ttl_game_manifests.types_ import RelativeExePath
+    from tail_launcher_sdk.types_ import RelativeExePath
 
     relative_exe_path_adapter = TypeAdapter(RelativeExePath)
 
@@ -49,7 +49,7 @@ def test_relative_exe_path():
 
 
 def test_relative_txt_path():
-    from ttl_game_manifests.types_ import RelativeTxtPath
+    from tail_launcher_sdk.types_ import RelativeTxtPath
 
     relative_txt_path_adapter = TypeAdapter(RelativeTxtPath)
 
@@ -63,7 +63,7 @@ def test_relative_txt_path():
 
 
 def test_file_name():
-    from ttl_game_manifests.types_ import FileName
+    from tail_launcher_sdk.types_ import FileName
 
     file_name_adapter = TypeAdapter(FileName)
 
@@ -77,7 +77,7 @@ def test_file_name():
 
 
 def test_json_file_name():
-    from ttl_game_manifests.types_ import JsonFileName
+    from tail_launcher_sdk.types_ import JsonFileName
 
     json_file_name_adapter = TypeAdapter(JsonFileName)
 
@@ -91,7 +91,7 @@ def test_json_file_name():
 
 
 def test_icon_url():
-    from ttl_game_manifests.types_ import IconUrl
+    from tail_launcher_sdk.types_ import IconUrl
 
     icon_url_adapter = TypeAdapter(IconUrl)
 
@@ -105,7 +105,7 @@ def test_icon_url():
 
 
 def test_background_url():
-    from ttl_game_manifests.types_ import BackgroundUrl
+    from tail_launcher_sdk.types_ import BackgroundUrl
 
     background_url_adapter = TypeAdapter(BackgroundUrl)
 
@@ -122,7 +122,7 @@ def test_background_url():
 
 
 def test_live_background_url():
-    from ttl_game_manifests.types_ import LiveBackgroundUrl
+    from tail_launcher_sdk.types_ import LiveBackgroundUrl
 
     live_background_url_adapter = TypeAdapter(LiveBackgroundUrl)
 
@@ -136,7 +136,7 @@ def test_live_background_url():
 
 
 def test_json_url():
-    from ttl_game_manifests.types_ import JsonUrl
+    from tail_launcher_sdk.types_ import JsonUrl
 
     json_url_adapter = TypeAdapter(JsonUrl)
 
@@ -151,7 +151,7 @@ def test_json_url():
 
 
 def test_hex_md5():
-    from ttl_game_manifests.types_ import HexMd5
+    from tail_launcher_sdk.types_ import HexMd5
 
     hex_md5_adapter = TypeAdapter(HexMd5)
 
@@ -170,7 +170,7 @@ def test_hex_md5():
 
 
 def test_metadata_version():
-    from ttl_game_manifests.types_ import MetadataVersion
+    from tail_launcher_sdk.types_ import MetadataVersion
 
     metadata_version_adapter = TypeAdapter(MetadataVersion)
 
@@ -184,7 +184,7 @@ def test_metadata_version():
 
 
 def test_proton_version():
-    from ttl_game_manifests.types_ import ProtonVersion
+    from tail_launcher_sdk.types_ import ProtonVersion
 
     proton_version_adapter = TypeAdapter(ProtonVersion)
 

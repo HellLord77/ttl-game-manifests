@@ -1,7 +1,7 @@
 from typing import Literal
 
-from ttl_game_manifests.enums import GameBiz
-from ttl_game_manifests.types_ import MetadataVersion
+from tail_launcher_sdk.enums import GameBiz
+from tail_launcher_sdk.types_ import MetadataVersion
 
 from .base import Base
 from .game_extras import GameExtras

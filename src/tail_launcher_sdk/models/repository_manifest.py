@@ -1,4 +1,4 @@
-from ttl_game_manifests.types_ import JsonFileName
+from tail_launcher_sdk.types_ import JsonFileName
 
 from .base import Base
 

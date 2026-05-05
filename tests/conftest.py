@@ -6,7 +6,7 @@ def pytest_addoption(parser: pytest.Parser):
 
 
 def pytest_generate_tests(metafunc: pytest.Metafunc):
-    from ttl_game_manifests import GameBiz
+    from tail_launcher_sdk import GameBiz
 
     if "game_biz" in metafunc.fixturenames:
         game_biz = GameBiz if metafunc.config.getoption("--all") else (GameBiz.HK4E,)

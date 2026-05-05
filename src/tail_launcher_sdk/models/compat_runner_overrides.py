@@ -1,6 +1,6 @@
 from typing import Literal
 
-from ttl_game_manifests.types_ import ProtonVersion
+from tail_launcher_sdk.types_ import ProtonVersion
 
 from .base import Base
 

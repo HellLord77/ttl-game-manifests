@@ -4,9 +4,9 @@ from pydantic import ByteSize
 from pydantic import HttpUrl
 from pydantic_extra_types.semantic_version import SemanticVersion
 
-from ttl_game_manifests.enums import DiffType
-from ttl_game_manifests.enums import Language
-from ttl_game_manifests.types_ import HexMd5
+from tail_launcher_sdk.enums import DiffType
+from tail_launcher_sdk.enums import Language
+from tail_launcher_sdk.types_ import HexMd5
 
 from .base import Base
 

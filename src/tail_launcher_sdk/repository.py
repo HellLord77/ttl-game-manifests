@@ -11,7 +11,7 @@ from .models.base import Base
 
 
 class Repository:
-    def __init__(self, url: RepositoryUrl = RepositoryUrl.OFFICIAL_MAIN, *, client: Client | None = None) -> None:
+    def __init__(self, url: str | RepositoryUrl = RepositoryUrl.OFFICIAL_MAIN, *, client: Client | None = None) -> None:
         self.url = url
 
         if client is None:
@@ -33,7 +33,9 @@ class Repository:
 
 
 class AsyncRepository(Repository):
-    def __init__(self, url: RepositoryUrl = RepositoryUrl.OFFICIAL_MAIN, *, client: AsyncClient | None = None) -> None:
+    def __init__(
+        self, url: str | RepositoryUrl = RepositoryUrl.OFFICIAL_MAIN, *, client: AsyncClient | None = None
+    ) -> None:
         if client is None:
             client = AsyncClient()
 

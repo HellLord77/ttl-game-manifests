@@ -1,8 +1,8 @@
 from typing import Literal
 
-from ttl_game_manifests.enums import ProtonCompatConfig
-from ttl_game_manifests.enums import WinetricksVerb
-from ttl_game_manifests.types_ import ProtonVersion
+from tail_launcher_sdk.enums import ProtonCompatConfig
+from tail_launcher_sdk.enums import WinetricksVerb
+from tail_launcher_sdk.types_ import ProtonVersion
 
 from .base import Base
 from .compat_platform_overrides import CompatPlatformOverrides

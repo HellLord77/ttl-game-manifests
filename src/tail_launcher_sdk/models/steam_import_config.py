@@ -1,7 +1,7 @@
 from typing import Literal
 
-from ttl_game_manifests.types_ import RelativeDllPath
-from ttl_game_manifests.types_ import RelativeTxtPath
+from tail_launcher_sdk.types_ import RelativeDllPath
+from tail_launcher_sdk.types_ import RelativeTxtPath
 
 from .base import Base
 

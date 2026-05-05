@@ -1,8 +1,8 @@
 from typing import Literal
 
-from ttl_game_manifests.types_ import BackgroundUrl
-from ttl_game_manifests.types_ import IconUrl
-from ttl_game_manifests.types_ import LiveBackgroundUrl
+from tail_launcher_sdk.types_ import BackgroundUrl
+from tail_launcher_sdk.types_ import IconUrl
+from tail_launcher_sdk.types_ import LiveBackgroundUrl
 
 from .base import Base
 

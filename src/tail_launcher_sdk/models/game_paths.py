@@ -1,8 +1,8 @@
 from typing import Literal
 
-from ttl_game_manifests.enums import DirType
-from ttl_game_manifests.types_ import RelativeExePath
-from ttl_game_manifests.types_ import RelativePath
+from tail_launcher_sdk.enums import DirType
+from tail_launcher_sdk.types_ import RelativeExePath
+from tail_launcher_sdk.types_ import RelativePath
 
 from .base import Base
 
